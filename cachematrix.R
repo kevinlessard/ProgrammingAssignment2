@@ -1,7 +1,8 @@
 ## This is a set of functions that can create a special matrix object
-## and can cache its inverse (makeCacheMatrix) and then either returns 
-## the cached inverse matrix or computes, caches and returns the 
-## inverse if not yet calculated, or the matrix has changed (cacheSolve)
+## and cache its inverse (makeCacheMatrix) and then by using the 
+## second function (cacheSolve) to either return the cached inverse matrix 
+## or compute, cache and return the inverse if not yet calculated, 
+## or the matrix has changed.
 
 ##  Note - Matrix created must be an invertible matrix
 
